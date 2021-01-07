@@ -29,4 +29,29 @@
         display: flex;
         align-items: center;
     }
+    .new-menu {
+        display:flex;
+        flex-direction: column;
+        background-color: #ffffff;
+        height: 800px;
+        position: absolute;
+        width: 100%;
+        left: -918px;
+        z-index: 99;
+        transition: transform 0.3s ease-in-out;
+        
+    }
+    .new-menu .HO {
+        
+        padding: 25px 30px;
+        display: inline-block;
+        width: 100%;
+        margin: 0 0px;
+        border-bottom: 1px solid #9c9c9c;
+        color: rgb(33,42,47);
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        font-size: 14px;
+    }
+    
 }

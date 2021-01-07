@@ -607,9 +607,7 @@ a .image-c img:hover{
     color: rgb(33, 42, 47);
     background-color: #fff;
 }
-.info {
-    
-}
+
  .info p {
     padding: 0 18px 18px 18px;
     color: rgb(33, 42, 47);
@@ -635,9 +633,7 @@ a .image-c img:hover{
 .mid {
     padding-bottom: 25px;
 }
-.mid1 {
-
-}
+ 
 /*Footer------------------*/
 footer {
     background-color: rgb(33,42,47);
