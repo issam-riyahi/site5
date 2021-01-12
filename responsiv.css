@@ -35,11 +35,13 @@
         background-color: #ffffff;
         height: 800px;
         position: absolute;
-        width: 100%;
-        left: -918px;
+        width: 0;
         z-index: 99;
-        transition: transform 0.3s ease-in-out;
         
+        
+    }
+    .new-menu {
+        width: 0%;
     }
     .new-menu .HO {
         
@@ -53,5 +55,62 @@
         letter-spacing: 0.5px;
         font-size: 14px;
     }
+    main .background-img {
+        position: absolute;
+        inset: 0;
+    }
+    .side-h {
+        height: calc(-90px + 60vh);
+    }
+    .element {
+        width: 500px;
+    }
+    .shop1 {
+        max-width: 437px;
+        margin: 8px;
+        margin-bottom: 50px;
+    }
+    .section-shop {
+        width: 1500px ;
+        overflow-x: hidden;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+    }
+    .image .button {
+        display: none;
+    }
+    .button2 {
+    display: flex;
+    
+    flex-direction: column;
+    
+    
+    text-align: center;
+    align-content: center;
+    
+    z-index: 999;
+    width: 100%;
+    
+    margin-top: 15px;
+    transition: opacity 0.5s  ease ;
+    
+}
+.button2 a {
+    color: #fff;
+    padding: 15px ;
+    background-color: rgb(33, 42, 47);
+    width: 100%;
+    margin: 5px 0 ;
+    border-radius: 5px;
+    font-weight: 700;
+    transition: 0.5s ease ;
+    border:  solid 2px rgb(33, 42, 47);
+}
+.button2 a:hover{
+    background-color: #fff;
+    color: rgb(33, 42, 47);
+    
+}
+
     
 }

@@ -122,7 +122,9 @@ body {
     
 }
 .new-menu {
+    overflow: hidden;
     display: none;
+    transition: width 0.3s ease-in-out;
 }
 .main-content {
     position: relative;
@@ -303,6 +305,9 @@ body {
 .image:hover img  {
     transform: scale(1.1);
 } 
+.button2 {
+    display: none;
+}
 .image .button {
     position: absolute;
     display: flex;
@@ -607,8 +612,7 @@ a .image-c img:hover{
     color: rgb(33, 42, 47);
     background-color: #fff;
 }
-
- .info p {
+.info p {
     padding: 0 18px 18px 18px;
     color: rgb(33, 42, 47);
     font-weight: 400;
