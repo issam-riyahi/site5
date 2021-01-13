@@ -111,6 +111,135 @@
     color: rgb(33, 42, 47);
     
 }
+.container-video{
+    height: 446px;
+}
+.content-panel {
+    width: 70%;
 
+}
+.contaciner-categore {
+    padding-left: 0;
+}
+.container-categorer {
+    padding: 0;
+}
+.content-hero {
+  width: 70%;
+}
+.categorer{
+    padding-bottom: 80px;
+}
+.stories .content-ca-ch {
+    overflow-y: hidden;
+    flex-direction: column;
+}
+.content-s  {
+    padding-left: 0;
+}
+.stories .cc {
+    width: 100%;
+}
+.parte1-footer {
+    width: 50%;
+} 
+.parte2-footer {
+    width: 80%;
+}
     
+}
+@media (max-width:767px){
+    .x1 {
+        display: none
+    }
+    .p1 {
+        margin: 0;
+    }
+    .title-g h1 {
+        font-size: 28px;
+    }
+    .element h1 {
+        font-size: 42px;
+    }
+    .shop1{
+        max-width: 366px;
+    }
+    .container-video{
+        height: 252px;
+    } 
+    .content-panel {
+        width: 100%;
+    
+    } 
+    .contaciner-categore {
+        padding-left: 32px;
+    }
+    .content-hero {
+        width: 100%;
+      } 
+      .container-s {
+          padding:  0 25px;
+      }
+      .contaciner-categorer {
+          padding-left: 25px;
+      }
+      .categores22 {
+          margin: 20px 0px 30px 12px;
+      }
+      .parte1-footer {
+        width: 100%;
+        justify-content: center;
+    } 
+    .parte2-footer {
+        width: 100%;
+        margin-bottom: 50px;
+        
+    }
+    .flexeble {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .ff1 {
+        margin: 20px 0;
+    } 
+    .ff1 .title-help {
+        font-size: 14px;
+    }   
+    .ff1 ul li {
+        margin-bottom: 8px;
+    } 
+    .parte3-footer {
+        flex-direction: column;
+    }
+    .sicail-media {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .info-so {
+        width: 100%;
+    }
+    .icon-so {
+        justify-content: center;
+    }
+    .certified {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .certified img {
+        width: 80px ;
+        height: 120px;
+    }
+    .banner .content-banner 
+    {
+        justify-content: center;
+    }
+    .copyrating p {
+        font-size: 10px;
+    }
+    .barner {
+        display: none;
+    }
 }
