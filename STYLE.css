@@ -33,7 +33,7 @@ body {
     
   }
   #check:checked ~  nav {
-    opacity: 0;
+    opacity: 1;
     left:  0;
     
   }
