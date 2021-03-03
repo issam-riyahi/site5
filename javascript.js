@@ -13,14 +13,19 @@ mychek.onclick=function(){
 }
 
 //Main Variable 
-var btnleft=document.querySelector('.buton-left'),
-    btnright=document.querySelector('.buton-right');
+var btnleft=document.querySelector('.buton-left.one'),
+    btnright=document.querySelector('.buton-right.tow');
     console.log(btnright)
 let container=document.querySelector('.contaciner-categorer'),
-    element=document.querySelectorAll('.categorer .contaciner-categorer .cc.F');
-    console.log(element)
-var len=0;
+    container2=document.querySelector('.contaciner-categorer.tow'),
 
+    element=document.querySelectorAll('.categorer .contaciner-categorer .cc.F'),
+    element2=document.querySelectorAll('.categorer .contaciner-categorer .cc.T'),
+    byntow=document.querySelector('.buton-left.three');
+    btnthree=document.querySelector('.buton-right.for');
+    console.log(container2)
+var len=0,len2=0;
+//first slide
 btnleft.onclick = function(){
     slidelifte();
     
@@ -39,6 +44,25 @@ btnright.addEventListener('click',function(){
         btnright.parentNode.classList.remove('show')
     }
 })
+//second slide
+byntow.addEventListener('click', function(){
+    slidelifte2();
+    
+    console.log(len2);
+    if(len2 > 0 ){
+        btnthree.parentNode.classList.add('show')
+    }
+});
+btnthree.addEventListener('click',function(){
+    if(len2 <=element2.length && len2 > 0){
+    slideright2();
+    
+    console.log(len2)
+    }
+    if(len2 == 0 ){
+        btnthree.parentNode.classList.remove('show')
+    }
+})
 
 
 function slidelifte(){
@@ -51,5 +75,17 @@ function slidelifte(){
 function slideright(){
     len--; 
     container.style.transform=`translate(${-347 * len}px)`;
+    
+ }
+ function slidelifte2(){
+    if(len2 < element2.length/2 -1  && len2 >=0){
+   len2++; 
+   container2.style.transform=`translateX(${-347 * len2}px)`;
+   
+    }
+}
+function slideright2(){
+    len2--; 
+    container2.style.transform=`translateX(${-347 * len2}px)`;
     
  }
